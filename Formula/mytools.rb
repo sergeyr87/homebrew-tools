@@ -2,7 +2,7 @@ class Mytools < Formula
   desc "My personal development tools installer"
   homepage "https://github.com/sergeyr87/homebrew-tools"
   url "https://github.com/sergeyr87/homebrew-tools/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "1f55a3fed05a3d82a8f47e269abc3a049f1e5a9de1cdc74588ff42f21120c69b"
+  sha256 "da1180a6c9a92c94183ead95c2b3ff130159c0a59c991d8588fca1d55c731a69"
   version "1.0.0"
 
   def install
@@ -20,7 +20,7 @@ class Mytools < Formula
       brew "asdf"
       brew "jq"
       brew "k9s"
-      brew "kubectl
+      brew "kubectl"
       brew "kubectx"
       brew "kustomize"
       brew "multitail"
