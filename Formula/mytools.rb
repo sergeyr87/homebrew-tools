@@ -1,7 +1,7 @@
 class Mytools < Formula
   desc "My personal development tools installer"
   homepage "https://github.com/sergeyr87/homebrew-tools"
-  url "https://github.com/sergeyr87/homebrew-tools/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/sergeyr87/homebrew-tools/releases/download/v1.0.0/homebrew-tools.tar.gz"
   sha256 "da1180a6c9a92c94183ead95c2b3ff130159c0a59c991d8588fca1d55c731a69"
   version "1.0.0"
 
