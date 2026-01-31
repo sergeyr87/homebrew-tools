@@ -9,20 +9,36 @@ class Mytools < Formula
     # Install the Brewfile to a known location
     (prefix/"Brewfile").write <<~EOS
       tap "hashicorp/tap"
-      
-      brew "git"
-      brew "terraform"
-      brew "terragrunt"
-      brew "kubectl"
-      brew "helm"
-      brew "awscli"
-      brew "azure-cli"
-      brew "jq"
-      brew "yq"
+      tap "astral-sh/tap"
+
+      brew "act"
       brew "argocd"
+      brew "gh"
+      brew "git-lfs"
+      brew "gnupg"
+      brew "helm"
+      brew "asdf"
+      brew "jq"
       brew "k9s"
-      brew "stern"
+      brew "kubectl
       brew "kubectx"
+      brew "kustomize"
+      brew "multitail"
+      brew "s3fs"
+      brew "sshuttle"
+      brew "telnet"
+      brew "astral-sh/tap/uv"
+      brew "tree"
+      brew "watch"
+      brew "wget"
+      brew "yarn"
+      brew "ykman"
+      brew "yq"
+      brew "zsh"
+
+      cask "visual-studio-code"
+      cask "docker"
+      cask "maccy"
     EOS
 
     # Create wrapper script
